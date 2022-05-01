@@ -1,0 +1,14 @@
+<%- include('partials/header'); -%>
+    <form action="/sentimentopinion" method="post">
+        <div class="form-group ">
+            <label for="text ">Enter text to detect sentiments</label>
+            <input type="text " class="form-control" id="sentiInput" placeholder="Sentiment detection" name="analyzeSenti">
+        </div>
+        <div class=" form-group ">
+            <label for="text ">Enter text to detect opinions</label>
+            <input type="text " class="form-control" name="analyzeOpinion" id="opinionInput " placeholder="Opinion detection">
+        </div>
+
+        <button type="submit" class="btn btn-primary" name="button">Submit</button>
+    </form>
+    <%- include('partials/footer'); -%>

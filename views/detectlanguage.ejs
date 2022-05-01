@@ -1,0 +1,11 @@
+<%- include('partials/header'); -%>
+    <form action="/language" method="post">
+        <div class="form-group ">
+            <label for="text ">Enter text to detect language</label>
+            <input type="text " class="form-control" id="detectLanguage" placeholder="Language detection" name="languagedetect">
+        </div>
+
+
+        <button type="submit" class="btn btn-primary" name="button">Submit</button>
+    </form>
+    <%- include('partials/footer'); -%>

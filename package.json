@@ -1,0 +1,31 @@
+{
+    "name": "itis6177-final-project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JyosthnaRoyal/itis6177-final-project.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JyosthnaRoyal/itis6177-final-project/issues"
+    },
+    "homepage": "https://github.com/JyosthnaRoyal/itis6177-final-project#readme",
+    "dependencies": {
+        "@azure/ai-text-analytics": "^5.1.0",
+        "body-parser": "^1.20.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.0",
+        "ejs": "^3.1.7",
+        "express": "^4.18.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.16"
+    }
+}
