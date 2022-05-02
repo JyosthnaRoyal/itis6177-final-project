@@ -59,7 +59,7 @@ Designed a simple web application that performs Sentiment Analysis, Language Det
 #### Value : "My cat might need to see a veterinarian.
 4. Click send and the response redirected will be JSON output that contains json output  of the key phrases for the input text given.
 
-#### Tools, Languages and Frameworks Used-**
+### Tools, Languages and Frameworks Used-**
 
 **Node.js** - For implementing API
 
