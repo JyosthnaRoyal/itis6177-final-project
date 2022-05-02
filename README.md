@@ -62,13 +62,21 @@ Designed a simple web application that performs Sentiment Analysis, Language Det
 #### Tools, Languages and Frameworks Used-**
 
 **Node.js** - For implementing API
+
 **Npm** - Package manager for Javascript Programming language.
+
 **Digital Ocean** - For deploying the project.
+
 **Express** - For building web applications and API.
+
 **azure/ai-text-analytics** - Microsoft Azure API  used.
+
 **body-parser** - Used for processing data sent through an HTTP request.
+
 **cors** - allows you to make requests from one website to another website in the browser.
+
 **dotenv** - automatically loads environment variables.
+
 **ejs** - Used for Generating web pages.
 
 #### References : [https://azure.microsoft.com/en-us/services/cognitive-services/language-service/](https://azure.microsoft.com/en-us/services/cognitive-services/language-service/)
